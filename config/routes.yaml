@@ -10,7 +10,10 @@ homepage:
     defaults:
         template: default/homepage.html.twig
         _locale: '%locale%'
-
+auth:
+    path: /auth
+    methods: ['POST']
+    
 controllers:
     resource:
         path: '../src/Controller/'
